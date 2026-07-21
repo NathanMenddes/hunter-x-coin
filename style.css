@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  background-color: #000814;
+  font-family: 'Poppins' ;
+  color: #fafafa;
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    border-bottom: 1px solid #15616d;
+  }
+}
+
+
+#busca{
+    background-color: #001524;
+    color: #fafafa;
+    border: 1px solid #15616d;
+    outline: none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    
+}
+#busca:hover {
+  transform: scale(1.05);
+  background-color:#013357;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #001524;
+  width: 200px;
+  height: auto;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  img {
+    width: 150px;
+    height: auto;
+  }
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color:#013357;
+}
+#banner{
+    margin: 0px;
+    padding: 100px 20px;
+}
+#crypto-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+#favoritos-container {
+    padding: 30px 20px;
+ #lista-favoritos{
+    padding: 30px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  justify-items: center;
+ }
+}
+
+.positivo {
+  color: #4caf50;
+}
+
+.negativo {
+  color: #f44336;
+}
+
+.favorito-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #03497a;
+}
+
+.favorito-btn.favoritado{
+    
+    color: rgb(226, 7, 44);
+}
