@@ -10,7 +10,7 @@ Dashboard de criptomoedas em tempo real, construído com HTML, CSS e JavaScript 
 
 ## 📸 Preview
 
-*(adicione um screenshot do projeto aqui)*
+<img src="img/Captura de tela 2026-07-20 231956.png" alt="">
 
 ## ✨ Funcionalidades
 
